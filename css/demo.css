@@ -1,0 +1,47 @@
+body{
+    background-color:white;
+    overflow: hidden;
+    background: url('../images/%E9%9B%AA%E5%B1%B1.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 1em 0;
+    border-top: 1px dashed rgba(255, 255, 255, 0.6);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: red;
+}
+.wrap {
+    min-height: calc(100vh - 77px);
+}
+.biography {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 3em;
+}
+.biography img {
+    padding: 0 1em;
+    width: 94;
+    height: 100px;
+}
+
